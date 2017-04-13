@@ -1,0 +1,43 @@
+{
+  "name": "sysocket",
+  "version": "1.0.0",
+  "description": "Syapse Websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "standard src/",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinniegarcia/sysocket.git"
+  },
+  "keywords": [
+    "websocket",
+    "node",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinniegarcia/sysocket/issues"
+  },
+  "homepage": "https://github.com/vinniegarcia/sysocket#readme",
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "express": "^4.15.2",
+    "pg-pubsub": "^0.3.0",
+    "ws": "^2.2.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "standard": "^10.0.1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
